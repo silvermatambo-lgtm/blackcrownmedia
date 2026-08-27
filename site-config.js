@@ -13,9 +13,9 @@ window.SITE = {
   colors: { primary: "#c99723", secondary: "#f4cf62", accent: "#ffffff", dark: "#050505" },
   nav: [["Home","/"],["About","/about.html"],["Services","/services.html"],["Portfolio","/gallery.html"],["Business Guide","/business-guide.html"],["Advertise","/advertise.html"],["Contact","/contact.html"]],
   hero: [
-    {image:"/images/portfolio-board.webp",heading:"Elevating Businesses. Amplifying Brands.",phrases:["Creative media built for business growth","Premium design. Strategic visibility.","Be seen. Be chosen. Be remembered."]},
-    {image:"/images/website-preview.webp",heading:"Your Business. Your Brand. Your Crown.",phrases:["Professional websites and digital campaigns","Branding that builds credibility","Media solutions that move businesses forward"]},
-    {image:"/images/support-local.webp",heading:"Local Business. Bigger Visibility.",phrases:["Rooted in Umjindi and Barberton","Supporting entrepreneurs and organisations","Local insight with professional standards"]}
+    {image:"/images/community.webp",heading:"Elevating Businesses. Amplifying Brands.",phrases:["Creative media built for business growth","Premium design. Strategic visibility.","Be seen. Be chosen. Be remembered."]},
+    {image:"/images/health-beauty.webp",heading:"Creative Media for Real Local Businesses.",phrases:["Business promotion that feels relevant","Professional design for every industry","Local insight with premium presentation"]},
+    {image:"/images/transport.webp",heading:"Your Business. Your Brand. Your Crown.",phrases:["Print, digital and business advertising","Publications that connect communities","Branding designed to build trust"]}
   ],
   about: {heading:"A Media Brand Built for Business Growth",intro:"Black Crown Media combines creative design, advertising, publishing and digital media to help businesses communicate clearly, look professional and reach more customers.",paragraphs:["We serve businesses, entrepreneurs, organisations and community initiatives, with a strong local focus on Umjindi and Barberton while remaining ready to support clients beyond the area.","Our crown represents excellence, leadership, visibility and success. Every project is approached with professionalism, creativity, community awareness, innovation and measurable business growth in mind."],values:["Professionalism","Creativity","Community","Innovation","Business Growth"]},
   services:[
@@ -31,9 +31,27 @@ window.SITE = {
     {title:"Local Business Promotion",text:"Community-focused promotion through directories, publications, campaigns and local business features."},
     {title:"Advertising Packages",text:"Flexible advertising combinations for print, digital, social media, directory listings and promotional exposure."}
   ],
-  stats:[{value:11,suffix:"+",label:"Creative Services"},{value:6,suffix:"+",label:"Portfolio Categories"},{value:1,suffix:"",label:"Local Business Guide"},{value:100,suffix:"%",label:"Business Focus"}],
+  businessGuideCategories:[
+    {title:"Warehouses & Industrial",text:"Storage, distribution, industrial suppliers and equipment businesses serving the local economy.",image:"/images/warehouses.webp"},
+    {title:"Construction & Maintenance",text:"Building construction, civil engineering, roofing, plumbing, electrical, painting and waterproofing services.",image:"/images/construction.webp"},
+    {title:"Automotive Services",text:"Repairs, diagnostics, tyres, auto electrical, panel beating, exhausts and vehicle maintenance.",image:"/images/automotive.webp"},
+    {title:"Food & Hospitality",text:"Restaurants, takeaways, cafés, bakeries, catering and local hospitality services.",image:"/images/food-hospitality.webp"},
+    {title:"Beauty & Personal Care",text:"Hair, skincare, nails, spa, grooming and wellness-focused beauty services.",image:"/images/beauty-care.webp"},
+    {title:"Health & Wellness",text:"Clinics, pharmacies, fitness, skincare and dental services supporting community wellbeing.",image:"/images/health-beauty.webp"},
+    {title:"Retail & General Stores",text:"Groceries, household essentials, hardware, clothing and neighbourhood retail businesses.",image:"/images/retail.webp"},
+    {title:"Transport & Logistics",text:"Courier services, freight, goods transport, warehousing, shuttle services and packing solutions.",image:"/images/transport.webp"},
+    {title:"Agriculture & Local Farming",text:"Fresh produce, livestock, irrigation, farm supplies, co-operatives and agricultural services.",image:"/images/agriculture.webp"}
+  ],
+  stats:[{value:11,suffix:"+",label:"Creative Services"},{value:9,suffix:"+",label:"Business Guide Sectors"},{value:1,suffix:"",label:"Local Business Platform"},{value:100,suffix:"%",label:"Business Focus"}],
   gallery:[
-    {url:"/images/portfolio-board.webp",alt:"Black Crown Media portfolio overview"},{url:"/images/small-business.webp",alt:"Small business social media campaign"},{url:"/images/support-local.webp",alt:"Support local business advertising poster"},{url:"/images/guide-cover.webp",alt:"Black Crown Business Guide cover"},{url:"/images/advertise-magazine.webp",alt:"Magazine advertising rate-card concept"},{url:"/images/our-work.webp",alt:"Portfolio categories: posters, branding, publications, social media and websites"},{url:"/images/construction.webp",alt:"Construction and maintenance guide page"},{url:"/images/food-hospitality.webp",alt:"Food and hospitality business guide page"},{url:"/images/beauty-care.webp",alt:"Beauty and personal care business guide page"},{url:"/images/transport.webp",alt:"Transport and logistics guide page"},{url:"/images/agriculture.webp",alt:"Agriculture and local farming guide page"},{url:"/images/warehouses.webp",alt:"Warehouses and industrial business guide page"}
+    {url:"/images/community.webp",alt:"Local business and community promotion"},
+    {url:"/images/construction.webp",alt:"Construction and maintenance sector promotion"},
+    {url:"/images/automotive.webp",alt:"Automotive services sector promotion"},
+    {url:"/images/food-hospitality.webp",alt:"Food and hospitality sector promotion"},
+    {url:"/images/beauty-care.webp",alt:"Beauty and personal care sector promotion"},
+    {url:"/images/transport.webp",alt:"Transport and logistics sector promotion"},
+    {url:"/images/agriculture.webp",alt:"Agriculture and local farming sector promotion"},
+    {url:"/images/warehouses.webp",alt:"Warehouses and industrial sector promotion"}
   ],
   faqs:[
     {q:"What does Black Crown Media do?",a:"We provide creative design, advertising, branding, publications, digital marketing, website design and local business promotion."},
